@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # philia-backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01efe88910f04681a0da5d02cce076c2)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Phil-Jayz/philia-webmin&amp;utm_campaign=Badge_Grade)
 
 # Inspiration
@@ -75,3 +76,7 @@ sooner
 
 ## What's next for PHILIA
 sooner
+=======
+# masta-backend
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3457a45d57534930a42215d32c1f6328)](https://www.codacy.com/gh/BuildForSDGCohort2/masta-frontend?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BuildForSDGCohort2/masta-frontend&amp;utm_campaign=Badge_Grade)
+>>>>>>> af601fee4960d6e4b4315a22e4d49123c92ae7db

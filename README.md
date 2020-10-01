@@ -1,13 +1,28 @@
-# PHILIA(φιλία) HEALTHCARE [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01efe88910f04681a0da5d02cce076c2)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Phil-Jayz/philia-webmin&amp;utm_campaign=Badge_Grade)
+# MASTA HEALTHCARE [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01efe88910f04681a0da5d02cce076c2)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Phil-Jayz/philia-webmin&amp;utm_campaign=Badge_Grade)
 
-PHILIA (φιλία) is a social network that connects doctors and patients from all over the world, in order to help solve everyday health problems and build a healthier world.
+**MASTA** is a social network that connects doctors and patients from all over the world, in order to help solve everyday health problems and build a healthier world.
 
 ## Problem Statement
 
 Malaria kills a child every 30 seconds, and more than one million people die from it every year. It is important to note, however, that malaria and other diseases can be treated if diagnosed in a timely manner.
 These deaths are the result of disparities in the social determinants of health. Patients in under-resourced regions such as sub-Saharan Africa and Southeast Asia often have little access to hospitals and microscopes for diagnosis, and even in regions with adequate medical facilities, many people lack the financial resources to take advantage of these facilities. 
 
-## Inspiration
+## Solution Statement
+
+Development of a social network application (web and mobile) that allows patients to post their health problems in order to get suggestions from our artificial intelligence (Machine Learning Algrorithms) based on community comments and recommendations from volunteer doctors registered on the platform.
+
+Masta offers several features such as : 
+an automatic AI symptom checker, a meal recommendation for diet planning, a personal medical record, fundraising for health issues and many more to come
+
+## FEATURES
+
+- [PHILIA(φιλία)](https://philodi.com/) , Voice enabled Personal Medical Assistant 
+- [PHILIA Finder](https://https://api.philodi.com/alexa/diet?q=chicken&diet=balanced/) , meal recommendations for special diets
+- [UMOJA FUNDING](https://apimedic.com/) , CrowdFunding Separate Platform
+
+## PHILIA(φιλία)
+
+### Inspiration
 
 Coordination problems are the root cause of a lot of issues in society. Care coordination (**CC**) is an important fulcrum for pursuing a range of health care goals. Current research and policy analyses have focused on aggregated data rather than on understanding what happens within individual cases. At the case level,**CC** emerges as a complex network of communications among providers over time, crossing and recrossing many organizational boundaries. Micro-level analysis is needed to understand where and how **CC** fails, as well as to identify best practices and root causes of problems.
 
@@ -29,7 +44,7 @@ Some facts:
 
 3.  **the failure to  establish an accurate and timely explanation of the patient's health problem(s) or communicate that explanation to the patient** ...
 
-#Human health care is important.
+#### Human health care is important.
 
 **Recommendation 1**: 
 
@@ -47,7 +62,7 @@ Health care professionals and organizations should partner with patients and the
 - Ensure patient access to electronic health records (EHRs), including clinical notes and diagnostic testing results, to facilitate patient engagement in the diagnostic process and patient review of health records for accuracy.<br /> 
 - Identify opportunities to include patients and their families in efforts to improve the diagnostic process by learning from diagnostic errors and near misses.
 
-# What it does
+### What it does
 
 **PHILIA** is an intelligent **personal medical assistant** capable of detecting behavioral tendencies and associated behavioral intents; in order to diagnose patients and help regulate the degree of frustrations or sadness by giving possible health issues and associated treatments or some advice.
 
@@ -55,7 +70,7 @@ A real assistant platform to track psychopathology patients' responses during vo
 
 This platform makes use of a machine learning algorithm capable of tracking and detecting facial expressions(sooner)   to identify associated emotions through a camera or voice expressions through conversations. This allows the corresponding medical staff or the platform by itself to take care of their patients by creating medical records supported by the artificially intelligent system, so they can follow-up the corresponding treatments.
 
-# How I built it
+### How It is built
 
 Inspired by how [**FACEBOOK**](https://facebook.com) has changed how lives by getting people in touch
 This project has been built with a lot of love, motivations to help others and empathy for died persons in lack of good health care, using:

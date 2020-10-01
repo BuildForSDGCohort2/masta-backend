@@ -1,0 +1,7 @@
+numpy
+tensorflow
+Sounddevice
+keras
+librosa
+opencv-python
+

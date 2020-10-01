@@ -1,0 +1,127 @@
+version: "3.7"
+services:
+    api-gateway:
+        build:
+            context: "."
+            dockerfile: "./api-gateway/Dockerfile"
+        depends_on:
+            - users-service
+            - medical-records-service
+            - apmedic-service
+            - emotions-service
+            - conversations-service
+        environment:
+            - APMEDIC_SERVICE_URI=http://apmedic-service:7100
+            - CONVERSATIONS_SERVICE_URI=http://conversations-service:7101
+            - USERS_SERVICE_URI=http://users-service:7102
+            - EMOTIONS_SERVICE_URI=http://emotions-service:7103
+            - MEDICAL_RECORDS_SERVICE_URI=http://medical-records-service:7104
+        ports:
+            - "7000:7000"
+        volumes:
+            - ./api-gateway:/opt/app
+
+    apmedic-service:
+        build:
+            context: "."
+            dockerfile: "./apmedic-service/Dockerfile"
+        depends_on:
+            - apmedic-service-db
+        environment:
+            - DB_URI=mysql://root:password@apmedic-service-db/db?charset=UTF8
+        ports:
+            - "7100:7100"
+        volumes:
+            - ./apmedic-service:/opt/app
+
+    apmedic-service-db:
+        environment:
+            - MYSQL_ROOT_PASSWORD=password
+            - MYSQL_DATABASE=db
+        image: mysql:5.7.20
+        ports:
+            - 0.0.0.0:7200:3306
+
+    conversations-service:
+        build:
+            context: "."
+            dockerfile: "./conversations-service/Dockerfile"
+        depends_on:
+            - conversations-service-db
+        environment:
+            - DB_URI=mysql://root:password@conversations-service-db/db?charset=UTF8
+        ports:
+            - "7101:7101"
+        volumes:
+            - ./conversations-service:/opt/app
+
+    conversations-service-db:
+        environment:
+            - MYSQL_ROOT_PASSWORD=password
+            - MYSQL_DATABASE=db
+        image: mysql:5.7.20
+        ports:
+            - 0.0.0.0:7201:3306
+
+    users-service:
+        build:
+            context: "."
+            dockerfile: "./users-service/Dockerfile"
+        depends_on:
+            - users-service-db
+        environment:
+            - DB_URI=mysql://root:password@users-service-db/db?charset=UTF8
+        ports:
+            - "7102:7102"
+        volumes:
+            - ./users-service:/opt/app
+
+    users-service-db:
+        environment:
+            - MYSQL_ROOT_PASSWORD=password
+            - MYSQL_DATABASE=db
+        image: mysql:5.7.20
+        ports:
+            - 0.0.0.0:7202:3306
+            
+    emotions-service:
+        build:
+            context: "."
+            dockerfile: "./emotions-service/Dockerfile"
+        depends_on:
+            - emotions-service-db
+        environment:
+            - DB_URI=mysql://root:password@emotions-service-db/db?charset=UTF8
+        ports:
+            - "7103:7103"
+        volumes:
+            - ./emotions-service:/opt/app
+            
+    emotions-service-db:
+        environment:
+            - MYSQL_ROOT_PASSWORD=password
+            - MYSQL_DATABASE=db
+        image: mysql:5.7.20
+        ports:
+            - 0.0.0.0:7203:3306
+
+    medical-records-service:
+        build:
+            context: "."
+            dockerfile: "./medical-records-service/Dockerfile"
+        depends_on:
+            - medical-records-service-db
+        environment:
+            - DB_URI=mysql://root:password@medical-records-service-db/db?charset=UTF8
+        ports:
+            - "7104:7104"
+        volumes:
+            - ./medical-records-service:/opt/app
+                    
+    medical-records-service-db:
+        environment:
+            - MYSQL_ROOT_PASSWORD=password
+            - MYSQL_DATABASE=db
+        image: mysql:5.7.20
+        ports:
+            - 0.0.0.0:7204:3306   

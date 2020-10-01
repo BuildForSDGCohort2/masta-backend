@@ -115,4 +115,6 @@ We plan to enhance the accuracy to make it more user friendly by using the follo
 
 Currently, we are covering certain regions' food data in recommendation an MVP  so we are covering a small region(American, Asian and European) but soon we try to increase a wide variety of foods to cover whole world in our system , especially african food.
 
-## [UMOJA FUNDING](https://umojafunding.com/) , CrowdFunding Separate Platform
+## [UMOJA FUNDING](https://umojafunding.com/)
+
+UMOJA FUNDING is a participative financing platform (crowdfunding) separately developed but integrated in masta. Beyond offering an alternative to traditional finance, UMOJA FUNDING is a place for exchange, sharing and solidarity between a community of contributors and project leaders in several sectors. 

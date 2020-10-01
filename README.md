@@ -17,10 +17,10 @@ an automatic AI symptom checker, a meal recommendation for diet planning, a pers
 ## FEATURES
 
 - [PHILIA(φιλία)](https://philodi.com/) , Voice enabled Personal Medical Assistant 
-- [PHILIA Finder](https://https://api.philodi.com/alexa/diet?q=chicken&diet=balanced/) , meal recommendations for special diets
-- [UMOJA FUNDING](https://apimedic.com/) , CrowdFunding Separate Platform
+- [PHILIA Finder](https://api.philodi.com/alexa/diet?q=chicken&diet=balanced/) , meal recommendations for special diets
+- [UMOJA FUNDING](https://umojafunding.com/) , CrowdFunding Separate Platform
 
-## PHILIA(φιλία)
+## [PHILIA(φιλία)](https://philodi.com/)
 
 ### Inspiration
 
@@ -85,7 +85,7 @@ This project has been built with a lot of love, motivations to help others and e
 - [Python Flask](https://expressjs.com/), business logic back-end for machine learning APIS
 - [Amazon RDS for MariaDB](https://aws.amazon.com/rds/mariadb/), a real-time database
 
-## PHILIA Finder
+## [PHILIA Finder](https://api.philodi.com/alexa/diet?q=chicken&diet=balanced/)
 
 ### Inspiration
 
@@ -95,7 +95,7 @@ Customers or patients need personalized meal suggestions that are both in line w
 
 **PHILIA Finder** is a Personal assistant for food recommendation , that provides over 2 million recipes that are indexed, normalized, and contain full nutrition information. The assistant allows for search by nutrient quantity, 40 diet, and health labels as well as keyword searches by cuisine type (chinese, italian, indian, french,...), meal type (lunch, dinner, breakfast, snack) or dish type (soup, salad, pizza, sandwich,...).
 
-# How It is built
+### How It is built
 
 It is not a basic or easy system, as it is developed with innovative technologies such as:
 
@@ -114,3 +114,5 @@ We plan to enhance the accuracy to make it more user friendly by using the follo
 - increase the variety of dishes and user-specific recommendations.
 
 Currently, we are covering certain regions' food data in recommendation an MVP  so we are covering a small region(American, Asian and European) but soon we try to increase a wide variety of foods to cover whole world in our system , especially african food.
+
+## [UMOJA FUNDING](https://umojafunding.com/) , CrowdFunding Separate Platform

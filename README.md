@@ -1,6 +1,8 @@
-# philia-backend [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01efe88910f04681a0da5d02cce076c2)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Phil-Jayz/philia-webmin&amp;utm_campaign=Badge_Grade)
+# PHILIA(φιλία) HEALTHCARE [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01efe88910f04681a0da5d02cce076c2)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Phil-Jayz/philia-webmin&amp;utm_campaign=Badge_Grade)
 
-# Inspiration
+PHILIA (φιλία) is a social network that connects doctors and patients from all over the world, in order to help solve everyday health problems and build a healthier world.
+
+## Inspiration
 
 Coordination problems are the root cause of a lot of issues in society. Care coordination (**CC**) is an important fulcrum for pursuing a range of health care goals. Current research and policy analyses have focused on aggregated data rather than on understanding what happens within individual cases. At the case level,**CC** emerges as a complex network of communications among providers over time, crossing and recrossing many organizational boundaries. Micro-level analysis is needed to understand where and how **CC** fails, as well as to identify best practices and root causes of problems.
 

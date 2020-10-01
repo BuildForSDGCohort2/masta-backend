@@ -84,3 +84,33 @@ This project has been built with a lot of love, motivations to help others and e
 - [Express js](https://expressjs.com/), business logic back-end for basics functionalities APIS
 - [Python Flask](https://expressjs.com/), business logic back-end for machine learning APIS
 - [Amazon RDS for MariaDB](https://aws.amazon.com/rds/mariadb/), a real-time database
+
+## PHILIA Finder
+
+### Inspiration
+
+Customers or patients need personalized meal suggestions that are both in line with their health goals and their food tastes. No matter if the customer is on low sodium, low-cholesterol or on a fully personalized DNA profile-driven diet they can get the right suggestions. Is your customer in need of only recipes that are vegetarian, contain less than 600mg of sodium per serving, are high on Vitamin A but low in fiber? **PHILIA Finder** can help with this.
+
+### What it does
+
+**PHILIA Finder** is a Personal assistant for food recommendation , that provides over 2 million recipes that are indexed, normalized, and contain full nutrition information. The assistant allows for search by nutrient quantity, 40 diet, and health labels as well as keyword searches by cuisine type (chinese, italian, indian, french,...), meal type (lunch, dinner, breakfast, snack) or dish type (soup, salad, pizza, sandwich,...).
+
+# How It is built
+
+It is not a basic or easy system, as it is developed with innovative technologies such as:
+
+- [Amazon Alexa](https://developer.amazon.com/en-US/alexa), Amazon’s cloud-based voice service available on hundreds of millions of devices from Amazon and third-party device manufacturers.
+- [Edaman](https://www.edamam.com/), Recipe Search API, Food Database API, and Nutrition Analysis API
+- [Python3.7](https://www.python.org/) , programming language.
+- [AWS Route 53](https://aws.amazon.com/route53/), a highly available and scalable cloud Domain Name System (DNS) web service.
+- [AWS Lambda](https://aws.amazon.com/lambda/), a computing service that runs code in response to events and automatically manages the computing resources required by that code.
+- [AWS CloudFront](https://aws.amazon.com/cloudfront/) , Fast, highly secure and programmable content delivery network (CDN)
+- [AWS api-gateway](https://aws.amazon.com/api-gateway/), Create, maintain, and secure APIs at any scale
+
+
+### What's next for PHILIA Finder
+We plan to enhance the accuracy to make it more user friendly by using the following steps:-
+- Try to merge best-suited recommendations based on origins and amount of nutrition diet recommendation system to get optimized results which customer like.
+- increase the variety of dishes and user-specific recommendations.
+
+Currently, we are covering certain regions' food data in recommendation an MVP  so we are covering a small region(American, Asian and European) but soon we try to increase a wide variety of foods to cover whole world in our system , especially african food.

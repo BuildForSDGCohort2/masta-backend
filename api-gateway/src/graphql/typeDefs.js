@@ -8,6 +8,28 @@ const typeDefs = gql`
     id: ID!
   }
 
+  type Source {
+    id: String
+    name: String!
+  }
+
+  type Articles {
+    source: Source
+    author: String
+    title: String!
+    description: String!
+    url: String!
+    urlToImage: String
+    publishedAt: Date!
+    content: String
+  }
+
+  type News {
+    status: String!
+    totalResults: Int!
+    articles: [Articles!]!
+  }
+
   type UserSession {
     createdAt: Date!
     expiresAt: Date!
@@ -23,6 +45,7 @@ const typeDefs = gql`
 
   type Query {
     userSession(me: Boolean!): UserSession
+    getNews: News
   }
 `;
 

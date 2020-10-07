@@ -15,6 +15,21 @@ const typeDefs = gql`
     user: User!
   }
 
+  type Recipe {
+    label: String!
+    image: String!
+    ingredientLines: [String!]!
+    calories: Int!
+    totalWeight: Int!
+    totalTime: Int!
+  }
+
+  type GetPhiliaHealth {
+    recipe: Recipe!
+    bookmarked: Boolean!
+    bought: Boolean!
+  }
+
   type Mutation {
     createUser(email: String!, password: String!): User!
     createUserSession(email: String!, password: String!): UserSession!
@@ -23,6 +38,7 @@ const typeDefs = gql`
 
   type Query {
     userSession(me: Boolean!): UserSession
+    getPhiliaHealth(recipe: String!, health:String!): [GetPhiliaHealth!]!
   }
 `;
 

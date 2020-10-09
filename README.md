@@ -7,6 +7,8 @@
 Malaria kills a child every 30 seconds, and more than one million people die from it every year. It is important to note, however, that malaria and other diseases can be treated if diagnosed in a timely manner.
 These deaths are the result of disparities in the social determinants of health. Patients in under-resourced regions such as sub-Saharan Africa and Southeast Asia often have little access to hospitals and microscopes for diagnosis, and even in regions with adequate medical facilities, many people lack the financial resources to take advantage of these facilities. 
 
+
+Witnessing all these problems afflicting our continent in particular, and the world in general, has prompted us to make our contribution in a broader, long-term sense.
 ## Solution Statement
 
 Development of a social network application (web and mobile) that allows patients to post their health problems in order to get suggestions from our artificial intelligence (Machine Learning Algrorithms) based on community comments and recommendations from volunteer doctors registered on the platform.
